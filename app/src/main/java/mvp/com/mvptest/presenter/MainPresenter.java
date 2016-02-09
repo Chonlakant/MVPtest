@@ -20,16 +20,20 @@ package mvp.com.mvptest.presenter;
 
 
 import android.util.Log;
+import android.widget.Toast;
 
 import com.squareup.otto.Subscribe;
 
 import mvp.com.mvptest.event.ActivityResultBus;
 import mvp.com.mvptest.event.ApiBus;
-import mvp.com.mvptest.event.ImagesReceivedEvent;
-import mvp.com.mvptest.event.ImagesRequestedEvent;
+import mvp.com.mvptest.event.GetStorySuccessEvent;
+import mvp.com.mvptest.event.LoadTimelineEvent;
+import mvp.com.mvptest.event.LoadTimelineSuccessEvent;
 
 public class MainPresenter implements Presenter<PhotosView> {
     PhotosView photosView;
+    private static String TYPE = "";
+    private static int PER_PAGE = 20;
 
     @Override
     public void attachView(PhotosView view) {
@@ -46,7 +50,7 @@ public class MainPresenter implements Presenter<PhotosView> {
     public void onResume() {
         ApiBus.getInstance().register(this);
         ActivityResultBus.getInstance().register(this);
-        ApiBus.getInstance().postQueue(new ImagesRequestedEvent());
+        ApiBus.getInstance().post(new LoadTimelineEvent(Integer.parseInt("295"), TYPE, 1, PER_PAGE, false));
     }
 
 
@@ -56,12 +60,25 @@ public class MainPresenter implements Presenter<PhotosView> {
         ActivityResultBus.getInstance().unregister(this);
     }
 
+//    @Subscribe
+//    public void getImage(ImagesReceivedEvent event) {
+//        Log.e("Test", event.getPost().getPosts().size() + "");
+//        Log.e("OK", event.getPost().getPosts().size() + "");
+//        if (event.getPost() != null) {
+//            photosView.setPhotos(event.getPost());
+//
+//        }
+//
+//    }
+
     @Subscribe
-    public void getImage(ImagesReceivedEvent event) {
-        Log.e("Test", event.getPost().getPosts().size() + "");
-        Log.e("OK", event.getPost().getPosts().size() + "");
-        if (event.getPost() != null) {
-            photosView.setPhotos(event.getPost());
+    public void onGetStoryEventSuccess(LoadTimelineSuccessEvent event) {
+        Log.e("Test", event.getTimelineData().getPosts().size() + "");
+        if (event.getTimelineData().getPosts() != null) {
+            for (int i = 0; i < event.getTimelineData().getPosts().size(); i++) {
+                photosView.setPhotos(event.getTimelineData().getPosts().get(i));
+            }
+
 
         }
 

@@ -3,30 +3,108 @@ package mvp.com.mvptest.model;
 import java.util.List;
 
 /**
- * Created by root1 on 12/20/15.
+ * Created by root1 on 1/24/16.
  */
-public class post {
-
+public class Post {
 
     /**
-     * status : ok
-     * count : 12
-     * count_total : 2124
-     * pages : 177
-     * posts : [{"id":25767,"url":"http://blog.teamtreehouse.com/matthew-built-career-by-learning-treehouse","title":"Matthew Built a New Career in Tech by Learning with Treehouse","date":"2015-12-17 14:17:14","author":"Faye Bridge","thumbnail":"http://blog.teamtreehouse.com/wp-content/uploads/2015/12/Matthew-Krey-150x150.jpg"},{"id":25756,"url":"http://blog.teamtreehouse.com/new-course-roundup-python-wordpress","title":"New Course Roundup: Python &#038; WordPress","date":"2015-12-14 09:37:34","author":"Mary McPherson","thumbnail":null},{"id":25750,"url":"http://blog.teamtreehouse.com/melanie-went-from-owning-a-bakery-to-traveling-the-world-with-her-family-as-a-freelance-web-designer","title":"Melanie Went From Owning a Bakery to Traveling The World With Her Family as a Freelance Web Designer","date":"2015-12-10 10:41:18","author":"Faye Bridge","thumbnail":"http://blog.teamtreehouse.com/wp-content/uploads/2015/12/Melanie-150x150.jpeg"},{"id":25357,"url":"http://blog.teamtreehouse.com/understanding-normal-maps","title":"Understanding Normal Maps","date":"2015-12-08 06:00:53","author":"Nick Pettit","thumbnail":"http://blog.teamtreehouse.com/wp-content/uploads/2015/08/flat-shaded-150x150.png"},{"id":25748,"url":"http://blog.teamtreehouse.com/new-course-roundup-swift-gradle","title":"New Course Roundup: Swift, Gradle","date":"2015-12-07 09:22:18","author":"Mary McPherson","thumbnail":null},{"id":25746,"url":"http://blog.teamtreehouse.com/nejc-transitioned-from-electrical-engineer-to-front-end-developer","title":"Nejc Transitioned from Electrical Engineer to Front End Developer","date":"2015-12-02 06:00:33","author":"Mary McPherson","thumbnail":"http://blog.teamtreehouse.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-11.27.17-AM-150x150.png"},{"id":25744,"url":"http://blog.teamtreehouse.com/new-course-roundup-css-flexbox-github-wordpress","title":"New Course Roundup: CSS Flexbox, GitHub, WordPress","date":"2015-11-30 08:51:56","author":"Mary McPherson","thumbnail":null},{"id":25732,"url":"http://blog.teamtreehouse.com/with-treehouse-jonathan-built-the-skills-needed-to-launch-his-web-business","title":"With Treehouse, Jonathan Built the Skills Needed to Launch His Web Business","date":"2015-11-25 06:00:30","author":"Faye Bridge","thumbnail":"http://blog.teamtreehouse.com/wp-content/uploads/2015/11/Jonathan-150x150.png"},{"id":25735,"url":"http://blog.teamtreehouse.com/new-course-roundup-c-angular","title":"New Course Roundup: C# and Angular","date":"2015-11-23 08:00:10","author":"Mary McPherson","thumbnail":null},{"id":25729,"url":"http://blog.teamtreehouse.com/treehouse-gave-lansana-a-jump-start-to-excel-as-a-self-taught-software-engineer","title":"Treehouse Gave Lansana a Jump-Start to Excel as a Self-Taught Software Engineer","date":"2015-11-20 06:00:20","author":"Faye Bridge","thumbnail":"http://blog.teamtreehouse.com/wp-content/uploads/2015/11/Lansana-150x150.jpg"},{"id":25723,"url":"http://blog.teamtreehouse.com/rj-learned-to-code-and-made-the-switch-from-accountant-to-skilled-front-end-developer","title":"RJ Learned to Code and Made the Switch From Accountant to Skilled Front End Developer","date":"2015-11-18 09:07:03","author":"Faye Bridge","thumbnail":"http://blog.teamtreehouse.com/wp-content/uploads/2015/11/rj-150x150.jpg"},{"id":25295,"url":"http://blog.teamtreehouse.com/beginners-guide-physically-based-rendering-unity","title":"The Beginner&#8217;s Guide to Physically Based Rendering in Unity","date":"2015-11-17 08:00:53","author":"Nick Pettit","thumbnail":"http://blog.teamtreehouse.com/wp-content/uploads/2015/08/radio-lighting-150x150.jpg"}]
+     * status : 1
+     * page : 1
+     * per_page : 20
+     * pages : 1
+     * total : 1
+     * offset : 0
+     * post_type :
+     * sort : DEFAULT
+     * user : {"id":3,"about":"","active":1,"avatar_id":29,"cover_id":0,"cover_position":0,"email":"anyarimpanus@gmail.com","email_verification_key":"4698f890b3f02cb08369b17f5adbabd7","email_verified":0,"language":"","last_logged":1452183369,"name":"Anya Rimpanus","password":"039a726ac0aeec3dde33e45387a7d4ac","time":1448944359,"timestamp":"2016-01-07 11:16:09","timezone":"","type":"user","username":"anya","phone_code":"","phone":"","verified":0,"avatar":"photos/2015/12/e3FbH_29_6ea9ab1baa0efb9e19094440c317e21b_100x100.jpg","cover":"themes/grape/images/default-cover.png","birthday":"01/01/1990","gender":"male","online":false}
+     * count : {"post":1,"follower":3,"following":1,"friend":1,"love":0,"group":0}
+     * posts : [{"id":16,"active":1,"author":{"id":3,"about":"","active":1,"avatar_id":29,"cover_id":0,"cover_position":0,"email":"anyarimpanus@gmail.com","email_verification_key":"4698f890b3f02cb08369b17f5adbabd7","email_verified":0,"language":"","last_logged":1452183369,"name":"Anya Rimpanus","password":"039a726ac0aeec3dde33e45387a7d4ac","time":1448944359,"timestamp":"2016-01-07 11:16:09","timezone":"","type":"user","username":"anya","phone_code":"","phone":"","verified":0,"avatar":"photos/2015/12/e3FbH_29_6ea9ab1baa0efb9e19094440c317e21b_100x100.jpg","cover":"themes/grape/images/default-cover.png"},"google_map_name":null,"hidden":[],"link_title":null,"post_id":16,"recipient_id":null,"seen":0,"text":null,"emoticonized":null,"emoticonized_iOS":null,"tattoo_url":null,"time":1448944543,"timeline_id":3,"timestamp":"2015-11-30 23:35:43","type1":"story","type2":"none","view":null,"follow_count":1,"follow":[{"id":2,"about":"","active":1,"avatar_id":30,"cover_id":0,"cover_position":0,"email":"iamnotkorr@gmail.com","email_verification_key":"3cea59cdd74660ff55be53543cb1c1e8","email_verified":0,"language":"","last_logged":1452834787,"name":"Thananon Ngoenthaworn","password":"039a726ac0aeec3dde33e45387a7d4ac","time":1448944317,"timestamp":"2016-01-15 00:13:07","timezone":"","type":"user","username":"korrio","phone_code":"","phone":"","verified":0,"avatar":"photos/2015/12/ow8uf_30_34173cb38f07f89ddbebc2ac9128303f_100x100.jpg","cover":"themes/grape/images/default-cover.png"}],"love_count":0,"love":null,"comment_count":2,"comment":[{"id":18,"text":"haha","emoticonized_iOS":"haha","emoticonized":"haha","time":1448944549,"timestamp":"2015-11-30 23:35:49","user":{"id":3,"name":"Anya Rimpanus","avatar_id":29,"avatar":"photos/2015/12/e3FbH_29_6ea9ab1baa0efb9e19094440c317e21b_100x100.jpg"},"love_count":0,"love":[]},{"id":31,"text":"à¸Ÿà¸Ÿà¸Ÿ","emoticonized_iOS":"à¸Ÿà¸Ÿà¸Ÿ","emoticonized":"à¸Ÿà¸Ÿà¸Ÿ","time":1452834785,"timestamp":"2016-01-15 00:13:05","user":{"id":2,"name":"Thananon Ngoenthaworn","avatar_id":30,"avatar":"photos/2015/12/ow8uf_30_34173cb38f07f89ddbebc2ac9128303f_100x100.jpg"},"love_count":1,"love":[{"id":2,"about":"","active":1,"avatar_id":30,"cover_id":0,"cover_position":0,"email":"iamnotkorr@gmail.com","email_verification_key":"3cea59cdd74660ff55be53543cb1c1e8","email_verified":0,"language":"","last_logged":1452834787,"name":"Thananon Ngoenthaworn","password":"039a726ac0aeec3dde33e45387a7d4ac","time":1448944317,"timestamp":"2016-01-15 00:13:07","timezone":"","type":"user","username":"korrio","phone_code":"","phone":"","verified":0,"avatar":"photos/2015/12/ow8uf_30_34173cb38f07f89ddbebc2ac9128303f_100x100.jpg","cover":"themes/grape/images/default-cover.png"}]}],"share_count":0,"share":null,"post_type":"photo","media":{"id":3,"active":1,"album_id":0,"descr":"","extension":"jpg","name":"11838874_1171294659554199_6575127050000480856_o.jpg","post_id":0,"temp":0,"timeline_id":0,"type":"photo","url":"photos/2015/11/IPUH1_3_eccbc87e4b5ce2fe28308fd9f2a7baf3.jpg","url_thumb":"imgd.php?src=photos/2015/11/IPUH1_3_eccbc87e4b5ce2fe28308fd9f2a7baf3.jpg&width=600","album_photos":[{"url_thumb":"imgd.php?src=photos/2015/11/IPUH1_3_eccbc87e4b5ce2fe28308fd9f2a7baf3.jpg.jpg&width=600","url":"photos/2015/11/IPUH1_3_eccbc87e4b5ce2fe28308fd9f2a7baf3.jpg"}]},"clip":null,"soundcloud":null,"youtube":null,"is_loved":false,"is_commented":true,"is_shared":false}]
      */
 
     private String status;
-    private int count;
-    private int count_total;
+    private int page;
+    private int per_page;
     private int pages;
+    private int total;
+    private int offset;
+    private String post_type;
+    private String sort;
     /**
-     * id : 25767
-     * url : http://blog.teamtreehouse.com/matthew-built-career-by-learning-treehouse
-     * title : Matthew Built a New Career in Tech by Learning with Treehouse
-     * date : 2015-12-17 14:17:14
-     * author : Faye Bridge
-     * thumbnail : http://blog.teamtreehouse.com/wp-content/uploads/2015/12/Matthew-Krey-150x150.jpg
+     * id : 3
+     * about :
+     * active : 1
+     * avatar_id : 29
+     * cover_id : 0
+     * cover_position : 0
+     * email : anyarimpanus@gmail.com
+     * email_verification_key : 4698f890b3f02cb08369b17f5adbabd7
+     * email_verified : 0
+     * language :
+     * last_logged : 1452183369
+     * name : Anya Rimpanus
+     * password : 039a726ac0aeec3dde33e45387a7d4ac
+     * time : 1448944359
+     * timestamp : 2016-01-07 11:16:09
+     * timezone :
+     * type : user
+     * username : anya
+     * phone_code :
+     * phone :
+     * verified : 0
+     * avatar : photos/2015/12/e3FbH_29_6ea9ab1baa0efb9e19094440c317e21b_100x100.jpg
+     * cover : themes/grape/images/default-cover.png
+     * birthday : 01/01/1990
+     * gender : male
+     * online : false
+     */
+
+    private UserEntity user;
+    /**
+     * post : 1
+     * follower : 3
+     * following : 1
+     * friend : 1
+     * love : 0
+     * group : 0
+     */
+
+    private CountEntity count;
+    /**
+     * id : 16
+     * active : 1
+     * author : {"id":3,"about":"","active":1,"avatar_id":29,"cover_id":0,"cover_position":0,"email":"anyarimpanus@gmail.com","email_verification_key":"4698f890b3f02cb08369b17f5adbabd7","email_verified":0,"language":"","last_logged":1452183369,"name":"Anya Rimpanus","password":"039a726ac0aeec3dde33e45387a7d4ac","time":1448944359,"timestamp":"2016-01-07 11:16:09","timezone":"","type":"user","username":"anya","phone_code":"","phone":"","verified":0,"avatar":"photos/2015/12/e3FbH_29_6ea9ab1baa0efb9e19094440c317e21b_100x100.jpg","cover":"themes/grape/images/default-cover.png"}
+     * google_map_name : null
+     * hidden : []
+     * link_title : null
+     * post_id : 16
+     * recipient_id : null
+     * seen : 0
+     * text : null
+     * emoticonized : null
+     * emoticonized_iOS : null
+     * tattoo_url : null
+     * time : 1448944543
+     * timeline_id : 3
+     * timestamp : 2015-11-30 23:35:43
+     * type1 : story
+     * type2 : none
+     * view : null
+     * follow_count : 1
+     * follow : [{"id":2,"about":"","active":1,"avatar_id":30,"cover_id":0,"cover_position":0,"email":"iamnotkorr@gmail.com","email_verification_key":"3cea59cdd74660ff55be53543cb1c1e8","email_verified":0,"language":"","last_logged":1452834787,"name":"Thananon Ngoenthaworn","password":"039a726ac0aeec3dde33e45387a7d4ac","time":1448944317,"timestamp":"2016-01-15 00:13:07","timezone":"","type":"user","username":"korrio","phone_code":"","phone":"","verified":0,"avatar":"photos/2015/12/ow8uf_30_34173cb38f07f89ddbebc2ac9128303f_100x100.jpg","cover":"themes/grape/images/default-cover.png"}]
+     * love_count : 0
+     * love : null
+     * comment_count : 2
+     * comment : [{"id":18,"text":"haha","emoticonized_iOS":"haha","emoticonized":"haha","time":1448944549,"timestamp":"2015-11-30 23:35:49","user":{"id":3,"name":"Anya Rimpanus","avatar_id":29,"avatar":"photos/2015/12/e3FbH_29_6ea9ab1baa0efb9e19094440c317e21b_100x100.jpg"},"love_count":0,"love":[]},{"id":31,"text":"à¸Ÿà¸Ÿà¸Ÿ","emoticonized_iOS":"à¸Ÿà¸Ÿà¸Ÿ","emoticonized":"à¸Ÿà¸Ÿà¸Ÿ","time":1452834785,"timestamp":"2016-01-15 00:13:05","user":{"id":2,"name":"Thananon Ngoenthaworn","avatar_id":30,"avatar":"photos/2015/12/ow8uf_30_34173cb38f07f89ddbebc2ac9128303f_100x100.jpg"},"love_count":1,"love":[{"id":2,"about":"","active":1,"avatar_id":30,"cover_id":0,"cover_position":0,"email":"iamnotkorr@gmail.com","email_verification_key":"3cea59cdd74660ff55be53543cb1c1e8","email_verified":0,"language":"","last_logged":1452834787,"name":"Thananon Ngoenthaworn","password":"039a726ac0aeec3dde33e45387a7d4ac","time":1448944317,"timestamp":"2016-01-15 00:13:07","timezone":"","type":"user","username":"korrio","phone_code":"","phone":"","verified":0,"avatar":"photos/2015/12/ow8uf_30_34173cb38f07f89ddbebc2ac9128303f_100x100.jpg","cover":"themes/grape/images/default-cover.png"}]}]
+     * share_count : 0
+     * share : null
+     * post_type : photo
+     * media : {"id":3,"active":1,"album_id":0,"descr":"","extension":"jpg","name":"11838874_1171294659554199_6575127050000480856_o.jpg","post_id":0,"temp":0,"timeline_id":0,"type":"photo","url":"photos/2015/11/IPUH1_3_eccbc87e4b5ce2fe28308fd9f2a7baf3.jpg","url_thumb":"imgd.php?src=photos/2015/11/IPUH1_3_eccbc87e4b5ce2fe28308fd9f2a7baf3.jpg&width=600","album_photos":[{"url_thumb":"imgd.php?src=photos/2015/11/IPUH1_3_eccbc87e4b5ce2fe28308fd9f2a7baf3.jpg.jpg&width=600","url":"photos/2015/11/IPUH1_3_eccbc87e4b5ce2fe28308fd9f2a7baf3.jpg"}]}
+     * clip : null
+     * soundcloud : null
+     * youtube : null
+     * is_loved : false
+     * is_commented : true
+     * is_shared : false
      */
 
     private List<PostsEntity> posts;
@@ -35,16 +113,40 @@ public class post {
         this.status = status;
     }
 
-    public void setCount(int count) {
-        this.count = count;
+    public void setPage(int page) {
+        this.page = page;
     }
 
-    public void setCount_total(int count_total) {
-        this.count_total = count_total;
+    public void setPer_page(int per_page) {
+        this.per_page = per_page;
     }
 
     public void setPages(int pages) {
         this.pages = pages;
+    }
+
+    public void setTotal(int total) {
+        this.total = total;
+    }
+
+    public void setOffset(int offset) {
+        this.offset = offset;
+    }
+
+    public void setPost_type(String post_type) {
+        this.post_type = post_type;
+    }
+
+    public void setSort(String sort) {
+        this.sort = sort;
+    }
+
+    public void setUser(UserEntity user) {
+        this.user = user;
+    }
+
+    public void setCount(CountEntity count) {
+        this.count = count;
     }
 
     public void setPosts(List<PostsEntity> posts) {
@@ -55,76 +157,1431 @@ public class post {
         return status;
     }
 
-    public int getCount() {
-        return count;
+    public int getPage() {
+        return page;
     }
 
-    public int getCount_total() {
-        return count_total;
+    public int getPer_page() {
+        return per_page;
     }
 
     public int getPages() {
         return pages;
     }
 
+    public int getTotal() {
+        return total;
+    }
+
+    public int getOffset() {
+        return offset;
+    }
+
+    public String getPost_type() {
+        return post_type;
+    }
+
+    public String getSort() {
+        return sort;
+    }
+
+    public UserEntity getUser() {
+        return user;
+    }
+
+    public CountEntity getCount() {
+        return count;
+    }
+
     public List<PostsEntity> getPosts() {
         return posts;
     }
 
-    public static class PostsEntity {
+    public static class UserEntity {
         private int id;
-        private String url;
-        private String title;
-        private String date;
-        private String author;
-        private String thumbnail;
+        private String about;
+        private int active;
+        private int avatar_id;
+        private int cover_id;
+        private int cover_position;
+        private String email;
+        private String email_verification_key;
+        private int email_verified;
+        private String language;
+        private int last_logged;
+        private String name;
+        private String password;
+        private int time;
+        private String timestamp;
+        private String timezone;
+        private String type;
+        private String username;
+        private String phone_code;
+        private String phone;
+        private int verified;
+        private String avatar;
+        private String cover;
+        private String birthday;
+        private String gender;
+        private boolean online;
 
         public void setId(int id) {
             this.id = id;
         }
 
-        public void setUrl(String url) {
-            this.url = url;
+        public void setAbout(String about) {
+            this.about = about;
         }
 
-        public void setTitle(String title) {
-            this.title = title;
+        public void setActive(int active) {
+            this.active = active;
         }
 
-        public void setDate(String date) {
-            this.date = date;
+        public void setAvatar_id(int avatar_id) {
+            this.avatar_id = avatar_id;
         }
 
-        public void setAuthor(String author) {
-            this.author = author;
+        public void setCover_id(int cover_id) {
+            this.cover_id = cover_id;
         }
 
-        public void setThumbnail(String thumbnail) {
-            this.thumbnail = thumbnail;
+        public void setCover_position(int cover_position) {
+            this.cover_position = cover_position;
+        }
+
+        public void setEmail(String email) {
+            this.email = email;
+        }
+
+        public void setEmail_verification_key(String email_verification_key) {
+            this.email_verification_key = email_verification_key;
+        }
+
+        public void setEmail_verified(int email_verified) {
+            this.email_verified = email_verified;
+        }
+
+        public void setLanguage(String language) {
+            this.language = language;
+        }
+
+        public void setLast_logged(int last_logged) {
+            this.last_logged = last_logged;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public void setPassword(String password) {
+            this.password = password;
+        }
+
+        public void setTime(int time) {
+            this.time = time;
+        }
+
+        public void setTimestamp(String timestamp) {
+            this.timestamp = timestamp;
+        }
+
+        public void setTimezone(String timezone) {
+            this.timezone = timezone;
+        }
+
+        public void setType(String type) {
+            this.type = type;
+        }
+
+        public void setUsername(String username) {
+            this.username = username;
+        }
+
+        public void setPhone_code(String phone_code) {
+            this.phone_code = phone_code;
+        }
+
+        public void setPhone(String phone) {
+            this.phone = phone;
+        }
+
+        public void setVerified(int verified) {
+            this.verified = verified;
+        }
+
+        public void setAvatar(String avatar) {
+            this.avatar = avatar;
+        }
+
+        public void setCover(String cover) {
+            this.cover = cover;
+        }
+
+        public void setBirthday(String birthday) {
+            this.birthday = birthday;
+        }
+
+        public void setGender(String gender) {
+            this.gender = gender;
+        }
+
+        public void setOnline(boolean online) {
+            this.online = online;
         }
 
         public int getId() {
             return id;
         }
 
-        public String getUrl() {
-            return url;
+        public String getAbout() {
+            return about;
         }
 
-        public String getTitle() {
-            return title;
+        public int getActive() {
+            return active;
         }
 
-        public String getDate() {
-            return date;
+        public int getAvatar_id() {
+            return avatar_id;
         }
 
-        public String getAuthor() {
+        public int getCover_id() {
+            return cover_id;
+        }
+
+        public int getCover_position() {
+            return cover_position;
+        }
+
+        public String getEmail() {
+            return email;
+        }
+
+        public String getEmail_verification_key() {
+            return email_verification_key;
+        }
+
+        public int getEmail_verified() {
+            return email_verified;
+        }
+
+        public String getLanguage() {
+            return language;
+        }
+
+        public int getLast_logged() {
+            return last_logged;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public String getPassword() {
+            return password;
+        }
+
+        public int getTime() {
+            return time;
+        }
+
+        public String getTimestamp() {
+            return timestamp;
+        }
+
+        public String getTimezone() {
+            return timezone;
+        }
+
+        public String getType() {
+            return type;
+        }
+
+        public String getUsername() {
+            return username;
+        }
+
+        public String getPhone_code() {
+            return phone_code;
+        }
+
+        public String getPhone() {
+            return phone;
+        }
+
+        public int getVerified() {
+            return verified;
+        }
+
+        public String getAvatar() {
+            return avatar;
+        }
+
+        public String getCover() {
+            return cover;
+        }
+
+        public String getBirthday() {
+            return birthday;
+        }
+
+        public String getGender() {
+            return gender;
+        }
+
+        public boolean isOnline() {
+            return online;
+        }
+    }
+
+    public static class CountEntity {
+        private int post;
+        private int follower;
+        private int following;
+        private int friend;
+        private int love;
+        private int group;
+
+        public void setPost(int post) {
+            this.post = post;
+        }
+
+        public void setFollower(int follower) {
+            this.follower = follower;
+        }
+
+        public void setFollowing(int following) {
+            this.following = following;
+        }
+
+        public void setFriend(int friend) {
+            this.friend = friend;
+        }
+
+        public void setLove(int love) {
+            this.love = love;
+        }
+
+        public void setGroup(int group) {
+            this.group = group;
+        }
+
+        public int getPost() {
+            return post;
+        }
+
+        public int getFollower() {
+            return follower;
+        }
+
+        public int getFollowing() {
+            return following;
+        }
+
+        public int getFriend() {
+            return friend;
+        }
+
+        public int getLove() {
+            return love;
+        }
+
+        public int getGroup() {
+            return group;
+        }
+    }
+
+    public static class PostsEntity {
+        private int id;
+        private int active;
+        /**
+         * id : 3
+         * about :
+         * active : 1
+         * avatar_id : 29
+         * cover_id : 0
+         * cover_position : 0
+         * email : anyarimpanus@gmail.com
+         * email_verification_key : 4698f890b3f02cb08369b17f5adbabd7
+         * email_verified : 0
+         * language :
+         * last_logged : 1452183369
+         * name : Anya Rimpanus
+         * password : 039a726ac0aeec3dde33e45387a7d4ac
+         * time : 1448944359
+         * timestamp : 2016-01-07 11:16:09
+         * timezone :
+         * type : user
+         * username : anya
+         * phone_code :
+         * phone :
+         * verified : 0
+         * avatar : photos/2015/12/e3FbH_29_6ea9ab1baa0efb9e19094440c317e21b_100x100.jpg
+         * cover : themes/grape/images/default-cover.png
+         */
+
+        private AuthorEntity author;
+        private Object google_map_name;
+        private Object link_title;
+        private int post_id;
+        private Object recipient_id;
+        private int seen;
+        private Object text;
+        private Object emoticonized;
+        private Object emoticonized_iOS;
+        private Object tattoo_url;
+        private int time;
+        private int timeline_id;
+        private String timestamp;
+        private String type1;
+        private String type2;
+        private Object view;
+        private int follow_count;
+        private int love_count;
+        private Object love;
+        private int comment_count;
+        private int share_count;
+        private Object share;
+        private String post_type;
+        /**
+         * id : 3
+         * active : 1
+         * album_id : 0
+         * descr :
+         * extension : jpg
+         * name : 11838874_1171294659554199_6575127050000480856_o.jpg
+         * post_id : 0
+         * temp : 0
+         * timeline_id : 0
+         * type : photo
+         * url : photos/2015/11/IPUH1_3_eccbc87e4b5ce2fe28308fd9f2a7baf3.jpg
+         * url_thumb : imgd.php?src=photos/2015/11/IPUH1_3_eccbc87e4b5ce2fe28308fd9f2a7baf3.jpg&width=600
+         * album_photos : [{"url_thumb":"imgd.php?src=photos/2015/11/IPUH1_3_eccbc87e4b5ce2fe28308fd9f2a7baf3.jpg.jpg&width=600","url":"photos/2015/11/IPUH1_3_eccbc87e4b5ce2fe28308fd9f2a7baf3.jpg"}]
+         */
+
+        private MediaEntity media;
+        private Object clip;
+        private Object soundcloud;
+        private Object youtube;
+        private boolean is_loved;
+        private boolean is_commented;
+        private boolean is_shared;
+        private List<?> hidden;
+        /**
+         * id : 2
+         * about :
+         * active : 1
+         * avatar_id : 30
+         * cover_id : 0
+         * cover_position : 0
+         * email : iamnotkorr@gmail.com
+         * email_verification_key : 3cea59cdd74660ff55be53543cb1c1e8
+         * email_verified : 0
+         * language :
+         * last_logged : 1452834787
+         * name : Thananon Ngoenthaworn
+         * password : 039a726ac0aeec3dde33e45387a7d4ac
+         * time : 1448944317
+         * timestamp : 2016-01-15 00:13:07
+         * timezone :
+         * type : user
+         * username : korrio
+         * phone_code :
+         * phone :
+         * verified : 0
+         * avatar : photos/2015/12/ow8uf_30_34173cb38f07f89ddbebc2ac9128303f_100x100.jpg
+         * cover : themes/grape/images/default-cover.png
+         */
+
+        private List<FollowEntity> follow;
+        /**
+         * id : 18
+         * text : haha
+         * emoticonized_iOS : haha
+         * emoticonized : haha
+         * time : 1448944549
+         * timestamp : 2015-11-30 23:35:49
+         * user : {"id":3,"name":"Anya Rimpanus","avatar_id":29,"avatar":"photos/2015/12/e3FbH_29_6ea9ab1baa0efb9e19094440c317e21b_100x100.jpg"}
+         * love_count : 0
+         * love : []
+         */
+
+        private List<CommentEntity> comment;
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public void setActive(int active) {
+            this.active = active;
+        }
+
+        public void setAuthor(AuthorEntity author) {
+            this.author = author;
+        }
+
+        public void setGoogle_map_name(Object google_map_name) {
+            this.google_map_name = google_map_name;
+        }
+
+        public void setLink_title(Object link_title) {
+            this.link_title = link_title;
+        }
+
+        public void setPost_id(int post_id) {
+            this.post_id = post_id;
+        }
+
+        public void setRecipient_id(Object recipient_id) {
+            this.recipient_id = recipient_id;
+        }
+
+        public void setSeen(int seen) {
+            this.seen = seen;
+        }
+
+        public void setText(Object text) {
+            this.text = text;
+        }
+
+        public void setEmoticonized(Object emoticonized) {
+            this.emoticonized = emoticonized;
+        }
+
+        public void setEmoticonized_iOS(Object emoticonized_iOS) {
+            this.emoticonized_iOS = emoticonized_iOS;
+        }
+
+        public void setTattoo_url(Object tattoo_url) {
+            this.tattoo_url = tattoo_url;
+        }
+
+        public void setTime(int time) {
+            this.time = time;
+        }
+
+        public void setTimeline_id(int timeline_id) {
+            this.timeline_id = timeline_id;
+        }
+
+        public void setTimestamp(String timestamp) {
+            this.timestamp = timestamp;
+        }
+
+        public void setType1(String type1) {
+            this.type1 = type1;
+        }
+
+        public void setType2(String type2) {
+            this.type2 = type2;
+        }
+
+        public void setView(Object view) {
+            this.view = view;
+        }
+
+        public void setFollow_count(int follow_count) {
+            this.follow_count = follow_count;
+        }
+
+        public void setLove_count(int love_count) {
+            this.love_count = love_count;
+        }
+
+        public void setLove(Object love) {
+            this.love = love;
+        }
+
+        public void setComment_count(int comment_count) {
+            this.comment_count = comment_count;
+        }
+
+        public void setShare_count(int share_count) {
+            this.share_count = share_count;
+        }
+
+        public void setShare(Object share) {
+            this.share = share;
+        }
+
+        public void setPost_type(String post_type) {
+            this.post_type = post_type;
+        }
+
+        public void setMedia(MediaEntity media) {
+            this.media = media;
+        }
+
+        public void setClip(Object clip) {
+            this.clip = clip;
+        }
+
+        public void setSoundcloud(Object soundcloud) {
+            this.soundcloud = soundcloud;
+        }
+
+        public void setYoutube(Object youtube) {
+            this.youtube = youtube;
+        }
+
+        public void setIs_loved(boolean is_loved) {
+            this.is_loved = is_loved;
+        }
+
+        public void setIs_commented(boolean is_commented) {
+            this.is_commented = is_commented;
+        }
+
+        public void setIs_shared(boolean is_shared) {
+            this.is_shared = is_shared;
+        }
+
+        public void setHidden(List<?> hidden) {
+            this.hidden = hidden;
+        }
+
+        public void setFollow(List<FollowEntity> follow) {
+            this.follow = follow;
+        }
+
+        public void setComment(List<CommentEntity> comment) {
+            this.comment = comment;
+        }
+
+        public int getId() {
+            return id;
+        }
+
+        public int getActive() {
+            return active;
+        }
+
+        public AuthorEntity getAuthor() {
             return author;
         }
 
-        public String getThumbnail() {
-            return thumbnail;
+        public Object getGoogle_map_name() {
+            return google_map_name;
+        }
+
+        public Object getLink_title() {
+            return link_title;
+        }
+
+        public int getPost_id() {
+            return post_id;
+        }
+
+        public Object getRecipient_id() {
+            return recipient_id;
+        }
+
+        public int getSeen() {
+            return seen;
+        }
+
+        public Object getText() {
+            return text;
+        }
+
+        public Object getEmoticonized() {
+            return emoticonized;
+        }
+
+        public Object getEmoticonized_iOS() {
+            return emoticonized_iOS;
+        }
+
+        public Object getTattoo_url() {
+            return tattoo_url;
+        }
+
+        public int getTime() {
+            return time;
+        }
+
+        public int getTimeline_id() {
+            return timeline_id;
+        }
+
+        public String getTimestamp() {
+            return timestamp;
+        }
+
+        public String getType1() {
+            return type1;
+        }
+
+        public String getType2() {
+            return type2;
+        }
+
+        public Object getView() {
+            return view;
+        }
+
+        public int getFollow_count() {
+            return follow_count;
+        }
+
+        public int getLove_count() {
+            return love_count;
+        }
+
+        public Object getLove() {
+            return love;
+        }
+
+        public int getComment_count() {
+            return comment_count;
+        }
+
+        public int getShare_count() {
+            return share_count;
+        }
+
+        public Object getShare() {
+            return share;
+        }
+
+        public String getPost_type() {
+            return post_type;
+        }
+
+        public MediaEntity getMedia() {
+            return media;
+        }
+
+        public Object getClip() {
+            return clip;
+        }
+
+        public Object getSoundcloud() {
+            return soundcloud;
+        }
+
+        public Object getYoutube() {
+            return youtube;
+        }
+
+        public boolean isIs_loved() {
+            return is_loved;
+        }
+
+        public boolean isIs_commented() {
+            return is_commented;
+        }
+
+        public boolean isIs_shared() {
+            return is_shared;
+        }
+
+        public List<?> getHidden() {
+            return hidden;
+        }
+
+        public List<FollowEntity> getFollow() {
+            return follow;
+        }
+
+        public List<CommentEntity> getComment() {
+            return comment;
+        }
+
+        public static class AuthorEntity {
+            private int id;
+            private String about;
+            private int active;
+            private int avatar_id;
+            private int cover_id;
+            private int cover_position;
+            private String email;
+            private String email_verification_key;
+            private int email_verified;
+            private String language;
+            private int last_logged;
+            private String name;
+            private String password;
+            private int time;
+            private String timestamp;
+            private String timezone;
+            private String type;
+            private String username;
+            private String phone_code;
+            private String phone;
+            private int verified;
+            private String avatar;
+            private String cover;
+
+            public void setId(int id) {
+                this.id = id;
+            }
+
+            public void setAbout(String about) {
+                this.about = about;
+            }
+
+            public void setActive(int active) {
+                this.active = active;
+            }
+
+            public void setAvatar_id(int avatar_id) {
+                this.avatar_id = avatar_id;
+            }
+
+            public void setCover_id(int cover_id) {
+                this.cover_id = cover_id;
+            }
+
+            public void setCover_position(int cover_position) {
+                this.cover_position = cover_position;
+            }
+
+            public void setEmail(String email) {
+                this.email = email;
+            }
+
+            public void setEmail_verification_key(String email_verification_key) {
+                this.email_verification_key = email_verification_key;
+            }
+
+            public void setEmail_verified(int email_verified) {
+                this.email_verified = email_verified;
+            }
+
+            public void setLanguage(String language) {
+                this.language = language;
+            }
+
+            public void setLast_logged(int last_logged) {
+                this.last_logged = last_logged;
+            }
+
+            public void setName(String name) {
+                this.name = name;
+            }
+
+            public void setPassword(String password) {
+                this.password = password;
+            }
+
+            public void setTime(int time) {
+                this.time = time;
+            }
+
+            public void setTimestamp(String timestamp) {
+                this.timestamp = timestamp;
+            }
+
+            public void setTimezone(String timezone) {
+                this.timezone = timezone;
+            }
+
+            public void setType(String type) {
+                this.type = type;
+            }
+
+            public void setUsername(String username) {
+                this.username = username;
+            }
+
+            public void setPhone_code(String phone_code) {
+                this.phone_code = phone_code;
+            }
+
+            public void setPhone(String phone) {
+                this.phone = phone;
+            }
+
+            public void setVerified(int verified) {
+                this.verified = verified;
+            }
+
+            public void setAvatar(String avatar) {
+                this.avatar = avatar;
+            }
+
+            public void setCover(String cover) {
+                this.cover = cover;
+            }
+
+            public int getId() {
+                return id;
+            }
+
+            public String getAbout() {
+                return about;
+            }
+
+            public int getActive() {
+                return active;
+            }
+
+            public int getAvatar_id() {
+                return avatar_id;
+            }
+
+            public int getCover_id() {
+                return cover_id;
+            }
+
+            public int getCover_position() {
+                return cover_position;
+            }
+
+            public String getEmail() {
+                return email;
+            }
+
+            public String getEmail_verification_key() {
+                return email_verification_key;
+            }
+
+            public int getEmail_verified() {
+                return email_verified;
+            }
+
+            public String getLanguage() {
+                return language;
+            }
+
+            public int getLast_logged() {
+                return last_logged;
+            }
+
+            public String getName() {
+                return name;
+            }
+
+            public String getPassword() {
+                return password;
+            }
+
+            public int getTime() {
+                return time;
+            }
+
+            public String getTimestamp() {
+                return timestamp;
+            }
+
+            public String getTimezone() {
+                return timezone;
+            }
+
+            public String getType() {
+                return type;
+            }
+
+            public String getUsername() {
+                return username;
+            }
+
+            public String getPhone_code() {
+                return phone_code;
+            }
+
+            public String getPhone() {
+                return phone;
+            }
+
+            public int getVerified() {
+                return verified;
+            }
+
+            public String getAvatar() {
+                return avatar;
+            }
+
+            public String getCover() {
+                return cover;
+            }
+        }
+
+        public static class MediaEntity {
+            private int id;
+            private int active;
+            private int album_id;
+            private String descr;
+            private String extension;
+            private String name;
+            private int post_id;
+            private int temp;
+            private int timeline_id;
+            private String type;
+            private String url;
+            private String url_thumb;
+            /**
+             * url_thumb : imgd.php?src=photos/2015/11/IPUH1_3_eccbc87e4b5ce2fe28308fd9f2a7baf3.jpg.jpg&width=600
+             * url : photos/2015/11/IPUH1_3_eccbc87e4b5ce2fe28308fd9f2a7baf3.jpg
+             */
+
+            private List<AlbumPhotosEntity> album_photos;
+
+            public void setId(int id) {
+                this.id = id;
+            }
+
+            public void setActive(int active) {
+                this.active = active;
+            }
+
+            public void setAlbum_id(int album_id) {
+                this.album_id = album_id;
+            }
+
+            public void setDescr(String descr) {
+                this.descr = descr;
+            }
+
+            public void setExtension(String extension) {
+                this.extension = extension;
+            }
+
+            public void setName(String name) {
+                this.name = name;
+            }
+
+            public void setPost_id(int post_id) {
+                this.post_id = post_id;
+            }
+
+            public void setTemp(int temp) {
+                this.temp = temp;
+            }
+
+            public void setTimeline_id(int timeline_id) {
+                this.timeline_id = timeline_id;
+            }
+
+            public void setType(String type) {
+                this.type = type;
+            }
+
+            public void setUrl(String url) {
+                this.url = url;
+            }
+
+            public void setUrl_thumb(String url_thumb) {
+                this.url_thumb = url_thumb;
+            }
+
+            public void setAlbum_photos(List<AlbumPhotosEntity> album_photos) {
+                this.album_photos = album_photos;
+            }
+
+            public int getId() {
+                return id;
+            }
+
+            public int getActive() {
+                return active;
+            }
+
+            public int getAlbum_id() {
+                return album_id;
+            }
+
+            public String getDescr() {
+                return descr;
+            }
+
+            public String getExtension() {
+                return extension;
+            }
+
+            public String getName() {
+                return name;
+            }
+
+            public int getPost_id() {
+                return post_id;
+            }
+
+            public int getTemp() {
+                return temp;
+            }
+
+            public int getTimeline_id() {
+                return timeline_id;
+            }
+
+            public String getType() {
+                return type;
+            }
+
+            public String getUrl() {
+                return url;
+            }
+
+            public String getUrl_thumb() {
+                return url_thumb;
+            }
+
+            public List<AlbumPhotosEntity> getAlbum_photos() {
+                return album_photos;
+            }
+
+            public static class AlbumPhotosEntity {
+                private String url_thumb;
+                private String url;
+
+                public void setUrl_thumb(String url_thumb) {
+                    this.url_thumb = url_thumb;
+                }
+
+                public void setUrl(String url) {
+                    this.url = url;
+                }
+
+                public String getUrl_thumb() {
+                    return url_thumb;
+                }
+
+                public String getUrl() {
+                    return url;
+                }
+            }
+        }
+
+        public static class FollowEntity {
+            private int id;
+            private String about;
+            private int active;
+            private int avatar_id;
+            private int cover_id;
+            private int cover_position;
+            private String email;
+            private String email_verification_key;
+            private int email_verified;
+            private String language;
+            private int last_logged;
+            private String name;
+            private String password;
+            private int time;
+            private String timestamp;
+            private String timezone;
+            private String type;
+            private String username;
+            private String phone_code;
+            private String phone;
+            private int verified;
+            private String avatar;
+            private String cover;
+
+            public void setId(int id) {
+                this.id = id;
+            }
+
+            public void setAbout(String about) {
+                this.about = about;
+            }
+
+            public void setActive(int active) {
+                this.active = active;
+            }
+
+            public void setAvatar_id(int avatar_id) {
+                this.avatar_id = avatar_id;
+            }
+
+            public void setCover_id(int cover_id) {
+                this.cover_id = cover_id;
+            }
+
+            public void setCover_position(int cover_position) {
+                this.cover_position = cover_position;
+            }
+
+            public void setEmail(String email) {
+                this.email = email;
+            }
+
+            public void setEmail_verification_key(String email_verification_key) {
+                this.email_verification_key = email_verification_key;
+            }
+
+            public void setEmail_verified(int email_verified) {
+                this.email_verified = email_verified;
+            }
+
+            public void setLanguage(String language) {
+                this.language = language;
+            }
+
+            public void setLast_logged(int last_logged) {
+                this.last_logged = last_logged;
+            }
+
+            public void setName(String name) {
+                this.name = name;
+            }
+
+            public void setPassword(String password) {
+                this.password = password;
+            }
+
+            public void setTime(int time) {
+                this.time = time;
+            }
+
+            public void setTimestamp(String timestamp) {
+                this.timestamp = timestamp;
+            }
+
+            public void setTimezone(String timezone) {
+                this.timezone = timezone;
+            }
+
+            public void setType(String type) {
+                this.type = type;
+            }
+
+            public void setUsername(String username) {
+                this.username = username;
+            }
+
+            public void setPhone_code(String phone_code) {
+                this.phone_code = phone_code;
+            }
+
+            public void setPhone(String phone) {
+                this.phone = phone;
+            }
+
+            public void setVerified(int verified) {
+                this.verified = verified;
+            }
+
+            public void setAvatar(String avatar) {
+                this.avatar = avatar;
+            }
+
+            public void setCover(String cover) {
+                this.cover = cover;
+            }
+
+            public int getId() {
+                return id;
+            }
+
+            public String getAbout() {
+                return about;
+            }
+
+            public int getActive() {
+                return active;
+            }
+
+            public int getAvatar_id() {
+                return avatar_id;
+            }
+
+            public int getCover_id() {
+                return cover_id;
+            }
+
+            public int getCover_position() {
+                return cover_position;
+            }
+
+            public String getEmail() {
+                return email;
+            }
+
+            public String getEmail_verification_key() {
+                return email_verification_key;
+            }
+
+            public int getEmail_verified() {
+                return email_verified;
+            }
+
+            public String getLanguage() {
+                return language;
+            }
+
+            public int getLast_logged() {
+                return last_logged;
+            }
+
+            public String getName() {
+                return name;
+            }
+
+            public String getPassword() {
+                return password;
+            }
+
+            public int getTime() {
+                return time;
+            }
+
+            public String getTimestamp() {
+                return timestamp;
+            }
+
+            public String getTimezone() {
+                return timezone;
+            }
+
+            public String getType() {
+                return type;
+            }
+
+            public String getUsername() {
+                return username;
+            }
+
+            public String getPhone_code() {
+                return phone_code;
+            }
+
+            public String getPhone() {
+                return phone;
+            }
+
+            public int getVerified() {
+                return verified;
+            }
+
+            public String getAvatar() {
+                return avatar;
+            }
+
+            public String getCover() {
+                return cover;
+            }
+        }
+
+        public static class CommentEntity {
+            private int id;
+            private String text;
+            private String emoticonized_iOS;
+            private String emoticonized;
+            private int time;
+            private String timestamp;
+            /**
+             * id : 3
+             * name : Anya Rimpanus
+             * avatar_id : 29
+             * avatar : photos/2015/12/e3FbH_29_6ea9ab1baa0efb9e19094440c317e21b_100x100.jpg
+             */
+
+            private UserEntity user;
+            private int love_count;
+            private List<?> love;
+
+            public void setId(int id) {
+                this.id = id;
+            }
+
+            public void setText(String text) {
+                this.text = text;
+            }
+
+            public void setEmoticonized_iOS(String emoticonized_iOS) {
+                this.emoticonized_iOS = emoticonized_iOS;
+            }
+
+            public void setEmoticonized(String emoticonized) {
+                this.emoticonized = emoticonized;
+            }
+
+            public void setTime(int time) {
+                this.time = time;
+            }
+
+            public void setTimestamp(String timestamp) {
+                this.timestamp = timestamp;
+            }
+
+            public void setUser(UserEntity user) {
+                this.user = user;
+            }
+
+            public void setLove_count(int love_count) {
+                this.love_count = love_count;
+            }
+
+            public void setLove(List<?> love) {
+                this.love = love;
+            }
+
+            public int getId() {
+                return id;
+            }
+
+            public String getText() {
+                return text;
+            }
+
+            public String getEmoticonized_iOS() {
+                return emoticonized_iOS;
+            }
+
+            public String getEmoticonized() {
+                return emoticonized;
+            }
+
+            public int getTime() {
+                return time;
+            }
+
+            public String getTimestamp() {
+                return timestamp;
+            }
+
+            public UserEntity getUser() {
+                return user;
+            }
+
+            public int getLove_count() {
+                return love_count;
+            }
+
+            public List<?> getLove() {
+                return love;
+            }
+
+            public static class UserEntity {
+                private int id;
+                private String name;
+                private int avatar_id;
+                private String avatar;
+
+                public void setId(int id) {
+                    this.id = id;
+                }
+
+                public void setName(String name) {
+                    this.name = name;
+                }
+
+                public void setAvatar_id(int avatar_id) {
+                    this.avatar_id = avatar_id;
+                }
+
+                public void setAvatar(String avatar) {
+                    this.avatar = avatar;
+                }
+
+                public int getId() {
+                    return id;
+                }
+
+                public String getName() {
+                    return name;
+                }
+
+                public int getAvatar_id() {
+                    return avatar_id;
+                }
+
+                public String getAvatar() {
+                    return avatar;
+                }
+            }
         }
     }
 }

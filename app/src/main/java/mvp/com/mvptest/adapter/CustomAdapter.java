@@ -12,13 +12,13 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 
 import mvp.com.mvptest.R;
-import mvp.com.mvptest.model.post;
+import mvp.com.mvptest.model.Post;
 
 public class CustomAdapter extends BaseAdapter {
     Context mContext;
-    ArrayList<post> list = new ArrayList<>();
+    ArrayList<Post> list = new ArrayList<>();
 
-    public CustomAdapter(Context context, ArrayList<post> list) {
+    public CustomAdapter(Context context, ArrayList<Post> list) {
         this.mContext = context;
         this.list = list;
 
@@ -37,16 +37,16 @@ public class CustomAdapter extends BaseAdapter {
     }
 
     public View getView(int position, View view, ViewGroup parent) {
-        post listPost = list.get(position);
+        Post listPost = list.get(position);
         LayoutInflater mInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
         if (view == null)
             view = mInflater.inflate(R.layout.item_listview, parent, false);
         ImageView imageView = (ImageView) view.findViewById(R.id.imageView);
-        Picasso.with(mContext)
-                .load(listPost.getPosts().get(position).getThumbnail())
-                .fit().centerCrop()
-                .into(imageView);
+//        Picasso.with(mContext)
+//                .load(listPost.getPosts().get(position).getThumbnail())
+//                .fit().centerCrop()
+//                .into(imageView);
 
         return view;
     }

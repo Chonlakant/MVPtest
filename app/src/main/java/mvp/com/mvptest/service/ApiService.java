@@ -1,14 +1,20 @@
 package mvp.com.mvptest.service;
 
-import mvp.com.mvptest.model.post;
+import java.util.Map;
+
+import mvp.com.mvptest.event.TimelineDataResponse;
+import mvp.com.mvptest.model.Post;
 import retrofit.Callback;
 import retrofit.http.GET;
+import retrofit.http.Path;
 import retrofit.http.Query;
+import retrofit.http.QueryMap;
 
 
 public interface ApiService {
 
-    @GET("/api/get_recent_summary")
-    void getImage(Callback<post> callback);
+    @GET("/posts/user_timeline/{id}")
+    public void getUserTimeline(@Path("id") int id,@QueryMap Map<String, String> options,
+                                Callback<TimelineDataResponse> responseJson);
 
 }

@@ -12,7 +12,8 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 
 import mvp.com.mvptest.adapter.CustomAdapter;
-import mvp.com.mvptest.model.post;
+import mvp.com.mvptest.model.Post;
+import mvp.com.mvptest.model.PostStory;
 import mvp.com.mvptest.presenter.MainPresenter;
 import mvp.com.mvptest.presenter.PhotosView;
 
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements PhotosView {
     ImageView imageView;
     ListView listView;
     CustomAdapter customAdapter;
-    ArrayList<post> listPost = new ArrayList<>();
+    //ArrayList<post> listPost = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,15 +38,9 @@ public class MainActivity extends AppCompatActivity implements PhotosView {
         return null;
     }
 
+
     @Override
-    public void setPhotos(post images) {
-        for(int i =0 ; i < images.getPosts().size();i++){
-            Log.e("MainEvent", images.getPosts().get(i).getTitle());
-        }
-        listPost.add(images);
-
-        customAdapter = new CustomAdapter(getApplicationContext(),listPost);
-        listView.setAdapter(customAdapter);
-
+    public void setPhotos(PostStory images) {
+        Log.e("Test", images.getAgoText()+ "");
     }
 }

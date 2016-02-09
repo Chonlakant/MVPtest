@@ -26,7 +26,7 @@ import retrofit.converter.GsonConverter;
 public class MVPApp extends Application implements Application.ActivityLifecycleCallbacks {
 
 
-    public static final String API_ENDPOINT = "http://blog.teamtreehouse.com";
+    public static final String API_ENDPOINT = "http://api.candychat.net";
 
     public static Activity currentActivity;
 
@@ -116,6 +116,8 @@ public class MVPApp extends Application implements Application.ActivityLifecycle
     public static void logout(Context context) {
 
     }
+
+
 
     public static MVPApp get(Context context) {
         return (MVPApp) context.getApplicationContext();

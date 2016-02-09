@@ -6,10 +6,13 @@ import android.util.Log;
 
 import com.squareup.otto.Subscribe;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import mvp.com.mvptest.event.ApiBus;
-import mvp.com.mvptest.event.ImagesReceivedEvent;
-import mvp.com.mvptest.event.ImagesRequestedEvent;
-import mvp.com.mvptest.model.post;
+import mvp.com.mvptest.event.LoadTimelineEvent;
+import mvp.com.mvptest.event.LoadTimelineSuccessEvent;
+import mvp.com.mvptest.event.TimelineDataResponse;
 import retrofit.Callback;
 import retrofit.RetrofitError;
 import retrofit.client.Response;
@@ -35,24 +38,38 @@ public class ApiHandler {
 
 
 
-    @Subscribe public void onGetConversationGroup(final ImagesRequestedEvent event) {
+    @Subscribe
+    public void onHomeTimelineRequestEvent(LoadTimelineEvent event) {
+        Map<String, String> options = new HashMap<String, String>();
 
-        api.getImage(new Callback<post>() {
+        options.put("type", event.getType());
+        options.put("page", Integer.toString(event.getPage()));
+        options.put("per_page", Integer.toString(event.getPerPage()));
+        Log.e("event", event.getUserId() + "");
+
+        api.getUserTimeline(event.getUserId(), options, new Callback<TimelineDataResponse>() {
             @Override
-            public void success(post post, Response response) {
-            Log.e("Response", post.getPosts().size() + "");
-                if(post != null){
-                    for(int i = 0; i < post.getPosts().size();i++){
-                        ApiBus.getInstance().postQueue(new ImagesReceivedEvent(post));
-                    }
+            public void success(TimelineDataResponse timelineDataResponse, Response response) {
+                // Log.e("posts", timelineDataResponse.getPosts().toArray().toString());สกเ่กสสาเ่ร่ส่วาสสยสเา่แ่นรเว่้วา้รนร
+                if (timelineDataResponse.getStatus().equals("1")) {
+                    Log.e("timelineDataResponse", response.getBody().toString());
+                    Log.e("timelineDataResponse", timelineDataResponse.getUser().avatar);
 
+                    ApiBus.getInstance().post(new LoadTimelineSuccessEvent(timelineDataResponse));
+
+                } else {
+                    //MainApplication.get(this).getPrefManager().isLogin().put(false);
+                    Log.e("LOGOUT!", "LOG OUT LAEW");
+                    //ApiBus.getInstance().post(new LogoutEvent());
                 }
 
             }
 
             @Override
             public void failure(RetrofitError error) {
-
+                Log.e("error", error.toString());
+                Log.e("error", error.getLocalizedMessage());
+                Log.e("error", error.getUrl());
             }
         });
     }
