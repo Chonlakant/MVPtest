@@ -143,8 +143,6 @@ public class RecyclerViewTimelineListAdapter extends RecyclerView.Adapter<Recycl
                     }
                 });
             }
-
-
         }
     }
 
