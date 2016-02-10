@@ -55,7 +55,10 @@ public class ApiHandler {
                     Log.e("timelineDataResponse", response.getBody().toString());
                     Log.e("timelineDataResponse", timelineDataResponse.getUser().avatar);
 
-                    ApiBus.getInstance().post(new LoadTimelineSuccessEvent(timelineDataResponse));
+                        ApiBus.getInstance().post(new LoadTimelineSuccessEvent(timelineDataResponse));
+
+
+
 
                 } else {
                     //MainApplication.get(this).getPrefManager().isLogin().put(false);
