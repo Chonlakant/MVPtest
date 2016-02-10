@@ -19,31 +19,27 @@
 package mvp.com.mvptest.presenter;
 
 
-import android.util.Log;
-import android.widget.Toast;
-
 import com.squareup.otto.Subscribe;
 
 import mvp.com.mvptest.event.ActivityResultBus;
 import mvp.com.mvptest.event.ApiBus;
-import mvp.com.mvptest.event.GetStorySuccessEvent;
 import mvp.com.mvptest.event.LoadTimelineEvent;
 import mvp.com.mvptest.event.LoadTimelineSuccessEvent;
 
-public class MainPresenter implements Presenter<PhotosView> {
-    PhotosView photosView;
+public class MainPresenter implements Presenter<FeedView> {
+    FeedView feedView;
     private static String TYPE = "";
     private static int PER_PAGE = 20;
 
     @Override
-    public void attachView(PhotosView view) {
-        this.photosView = view;
+    public void attachView(FeedView view) {
+        this.feedView = view;
 
     }
 
     @Override
     public void detachView() {
-        this.photosView = null;
+        this.feedView = null;
     }
 
     @Override
@@ -65,7 +61,7 @@ public class MainPresenter implements Presenter<PhotosView> {
 //        Log.e("Test", event.getPost().getPosts().size() + "");
 //        Log.e("OK", event.getPost().getPosts().size() + "");
 //        if (event.getPost() != null) {
-//            photosView.setPhotos(event.getPost());
+//            feedView.setPosts(event.getPost());
 //
 //        }
 //
@@ -73,15 +69,7 @@ public class MainPresenter implements Presenter<PhotosView> {
 
     @Subscribe
     public void onGetStoryEventSuccess(LoadTimelineSuccessEvent event) {
-        Log.e("Test", event.getTimelineData().getPosts().size() + "");
-        if (event.getTimelineData().getPosts() != null) {
-            for (int i = 0; i < event.getTimelineData().getPosts().size(); i++) {
-                photosView.setPhotos(event.getTimelineData().getPosts().get(i));
-            }
-
-
-        }
-
+        feedView.setPosts(event.getTimelineData().getPosts());
     }
 
 

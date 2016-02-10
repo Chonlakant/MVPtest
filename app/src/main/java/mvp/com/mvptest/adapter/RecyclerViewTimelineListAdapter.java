@@ -118,29 +118,32 @@ public class RecyclerViewTimelineListAdapter extends RecyclerView.Adapter<Recycl
 
             Log.e("ddd", item.type);
 
-            Picasso.with(context)
-                    .load(item.media.getThumbUrl())
-                    .centerCrop()
-                    .resize(200, 200)
-                    .transform(new RoundedTransformation(100, 4))
-                    .into(vh1.getProfile_avatar());
+            if(item.type.equals("photo")) {
+                Picasso.with(context)
+                        .load(item.media.getThumbUrl())
+                        .centerCrop()
+                        .resize(200, 200)
+                        .transform(new RoundedTransformation(100, 4))
+                        .into(vh1.getProfile_avatar());
 
-            vh1.getComment_view_1().setVisibility(View.VISIBLE);
-            vh1.getComment_view_2().setVisibility(View.GONE);
+                vh1.getComment_view_1().setVisibility(View.VISIBLE);
+                vh1.getComment_view_2().setVisibility(View.GONE);
 
-            Picasso.with(context)
-                    .load(item.media.getThumbUrl())
-                    .centerCrop()
-                    .resize(200, 200)
-                    .transform(new RoundedTransformation(100, 4))
-                    .into(vh1.getIvUserAvatar1());
+                Picasso.with(context)
+                        .load(item.media.getThumbUrl())
+                        .centerCrop()
+                        .resize(200, 200)
+                        .transform(new RoundedTransformation(100, 4))
+                        .into(vh1.getIvUserAvatar1());
 
-            vh1.getBtn_comment().setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Toast.makeText(context, "comment", Toast.LENGTH_SHORT).show();
-                }
-            });
+                vh1.getBtn_comment().setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Toast.makeText(context, "comment", Toast.LENGTH_SHORT).show();
+                    }
+                });
+            }
+
 
         }
     }

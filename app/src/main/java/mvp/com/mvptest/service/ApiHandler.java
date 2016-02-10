@@ -56,10 +56,6 @@ public class ApiHandler {
                     Log.e("timelineDataResponse", timelineDataResponse.getUser().avatar);
 
                         ApiBus.getInstance().post(new LoadTimelineSuccessEvent(timelineDataResponse));
-
-
-
-
                 } else {
                     //MainApplication.get(this).getPrefManager().isLogin().put(false);
                     Log.e("LOGOUT!", "LOG OUT LAEW");

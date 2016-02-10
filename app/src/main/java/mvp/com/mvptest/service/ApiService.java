@@ -3,11 +3,9 @@ package mvp.com.mvptest.service;
 import java.util.Map;
 
 import mvp.com.mvptest.event.TimelineDataResponse;
-import mvp.com.mvptest.model.Post;
 import retrofit.Callback;
 import retrofit.http.GET;
 import retrofit.http.Path;
-import retrofit.http.Query;
 import retrofit.http.QueryMap;
 
 

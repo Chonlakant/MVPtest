@@ -8,17 +8,15 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 
-
 import com.squareup.okhttp.OkHttpClient;
 
-
 import java.io.File;
+
 import mvp.com.mvptest.event.ApiBus;
 import mvp.com.mvptest.service.ApiHandler;
 import mvp.com.mvptest.service.ApiService;
 import retrofit.RequestInterceptor;
 import retrofit.RestAdapter;
-import retrofit.converter.GsonConverter;
 
 /**
  * Created by madhur on 3/1/15.
@@ -56,11 +54,7 @@ public class MVPApp extends Application implements Application.ActivityLifecycle
         Instance = this;
         applicationHandler = new Handler(getInstance().getMainLooper());
 
-
         saveInstallation(0);
-
-
-
 
         someApiHandler = new ApiHandler(this, buildApi(), ApiBus.getInstance());
         someApiHandler.registerForEvents();
