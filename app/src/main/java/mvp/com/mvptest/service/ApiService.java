@@ -11,7 +11,7 @@ import retrofit.http.QueryMap;
 
 public interface ApiService {
 
-    @GET("/posts/user_timeline/{id}")
+    @GET("/posts/user_timeline/{id}?page=1&type=&per_page=20")
     public void getUserTimeline(@Path("id") int id,@QueryMap Map<String, String> options,
                                 Callback<TimelineDataResponse> responseJson);
 

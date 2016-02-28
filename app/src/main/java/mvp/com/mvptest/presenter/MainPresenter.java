@@ -46,7 +46,7 @@ public class MainPresenter implements Presenter<FeedView> {
     public void onResume() {
         ApiBus.getInstance().register(this);
         ActivityResultBus.getInstance().register(this);
-        ApiBus.getInstance().post(new LoadTimelineEvent(Integer.parseInt("295"), TYPE, 1, PER_PAGE, false));
+        ApiBus.getInstance().post(new LoadTimelineEvent(Integer.parseInt("2"), TYPE, 1, PER_PAGE, false));
     }
 
 

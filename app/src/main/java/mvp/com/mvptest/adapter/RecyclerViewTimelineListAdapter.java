@@ -1,6 +1,7 @@
 package mvp.com.mvptest.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -12,11 +13,12 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
+import me.iwf.photopicker.PhotoPagerActivity;
 import mvp.com.mvptest.R;
 import mvp.com.mvptest.model.PostStory;
 import mvp.com.mvptest.viewholder.RecyclerViewSimpleTextViewHolder;
 import mvp.com.mvptest.viewholder.ViewHolderClip;
-import mvp.com.mvptest.viewholder.ViewHolder3;
+import mvp.com.mvptest.viewholder.ViewHolderPhoto;
 import mvp.com.mvptest.viewholder.ViewHolderText;
 import mvp.com.mvptest.wiget.RoundedTransformation;
 
@@ -69,11 +71,11 @@ public class RecyclerViewTimelineListAdapter extends RecyclerView.Adapter<Recycl
                 break;
             case 1:
                 View v2 = inflater.inflate(R.layout.item_feed_photo, viewGroup, false);
-                viewHolder = new ViewHolderClip(v2);
+                viewHolder = new ViewHolderPhoto(v2);
                 break;
             case 2:
                 View v3 = inflater.inflate(R.layout.item_feed_clip, viewGroup, false);
-                viewHolder = new ViewHolder3(v3);
+                viewHolder = new ViewHolderClip(v3);
                 break;
             default:
                 View v = inflater.inflate(android.R.layout.simple_list_item_1, viewGroup, false);
@@ -92,11 +94,11 @@ public class RecyclerViewTimelineListAdapter extends RecyclerView.Adapter<Recycl
                 configureViewHolder1(vh1, position);
                 break;
             case 1:
-                ViewHolderClip vh2 = (ViewHolderClip) viewHolder;
+                ViewHolderPhoto vh2 = (ViewHolderPhoto) viewHolder;
                 configureViewHolder2(vh2, position);
                 break;
             case 2:
-                ViewHolder3 vh3 = (ViewHolder3) viewHolder;
+                ViewHolderClip vh3 = (ViewHolderClip) viewHolder;
                 configureViewHolder3(vh3, position);
                 break;
             default:
@@ -113,14 +115,26 @@ public class RecyclerViewTimelineListAdapter extends RecyclerView.Adapter<Recycl
     private void configureViewHolder1(ViewHolderText vh1, int position) {
         PostStory item = list.get(position);
         if (item != null) {
-            vh1.getLabel1().setText(item.author.name);
-            vh1.getLabel2().setText(item.author.username);
+            vh1.getLabel1().setText(item.text);
+            vh1.getLabel2().setText(item.author.name);
+            String imagUrl = "http://candychat.net/" + item.author.avatarPath;
+            Log.e("ddd", item.author.avatarPath);
 
-            Log.e("ddd", item.type);
 
-            if(item.type.equals("photo")) {
+            if(item.comment != null){
+                vh1.getLn_comment().setVisibility(View.VISIBLE);
+                vh1.getComment_view_1().setVisibility(View.VISIBLE);
+                vh1.getTvName().setText(item.comment.get(0).text);
+                vh1.getTvComment().setText(item.comment.get(0).user.name);
+                vh1.getComment_view_2().setVisibility(View.GONE);
+            }else{
+                vh1.getComment_view_1().setVisibility(View.GONE);
+                vh1.getComment_view_2().setVisibility(View.GONE);
+            }
+
+            if(item.type.equals("text")) {
                 Picasso.with(context)
-                        .load(item.media.getThumbUrl())
+                        .load(imagUrl)
                         .centerCrop()
                         .resize(200, 200)
                         .transform(new RoundedTransformation(100, 4))
@@ -130,7 +144,7 @@ public class RecyclerViewTimelineListAdapter extends RecyclerView.Adapter<Recycl
                 vh1.getComment_view_2().setVisibility(View.GONE);
 
                 Picasso.with(context)
-                        .load(item.media.getThumbUrl())
+                        .load(imagUrl)
                         .centerCrop()
                         .resize(200, 200)
                         .transform(new RoundedTransformation(100, 4))
@@ -146,12 +160,15 @@ public class RecyclerViewTimelineListAdapter extends RecyclerView.Adapter<Recycl
         }
     }
 
-    private void configureViewHolder2(ViewHolderClip vh2, int position) {
+    private void configureViewHolder2(ViewHolderPhoto vh2, int position) {
         //vh2.getThumb().setImageResource(R.drawable.imge);
 
-        PostStory item = list.get(position);
+        final PostStory item = list.get(position);
         Log.e("sss", item.media.url);
         String imagUrl = "http://candychat.net/" + item.media.url;
+        String imagAva = "http://candychat.net/" + item.author.avatarPath;
+
+
         Picasso.with(context)
                 .load(imagUrl)
                 .centerCrop()
@@ -160,7 +177,7 @@ public class RecyclerViewTimelineListAdapter extends RecyclerView.Adapter<Recycl
                 .into(vh2.getImageView());
 
         Picasso.with(context)
-                .load(imagUrl)
+                .load(imagAva)
                 .centerCrop()
                 .resize(200, 200)
                 .transform(new RoundedTransformation(100, 4))
@@ -171,10 +188,72 @@ public class RecyclerViewTimelineListAdapter extends RecyclerView.Adapter<Recycl
                 .fit().centerCrop()
                 .into(vh2.getThumb());
 
-        vh2.getLn_comment().setVisibility(View.GONE);
+        if(item.comment != null){
+            String avatarComment = "http://candychat.net/" + item.comment.get(0).user.avatar;
+            vh2.getLn_comment().setVisibility(View.VISIBLE);
+            vh2.getTvName().setText(item.comment.get(0).text);
+            vh2.getTvComment().setText(item.comment.get(0).user.name);
+            vh2.getComment_view_2().setVisibility(View.GONE);
+
+            Picasso.with(context)
+                    .load(avatarComment)
+                    .centerCrop()
+                    .resize(200, 200)
+                    .transform(new RoundedTransformation(100, 4))
+                    .into(vh2.getIvUserAvatar());
+        }else{
+            vh2.getLn_comment().setVisibility(View.GONE);
+            vh2.getComment_view_2().setVisibility(View.GONE);
+        }
+
+
+
+        vh2.SetOnItemClickListener(new ViewHolderPhoto.OnItemClickListener() {
+            @Override
+            public void onItemClick(View view, int position) {
+                Toast.makeText(context, item.media.url, Toast.LENGTH_SHORT).show();
+
+                String urlPhoto = "http://candychat.net/" + item.media.url;
+                Log.e("urlPhoto", urlPhoto);
+                Intent intent = new Intent(context, PhotoPagerActivity.class);
+
+                ArrayList<String> listUrls = new ArrayList<String>();
+                listUrls.add(urlPhoto);
+//
+//                for (int i = 0; i < listUrls.size();i++) {
+//                    listUrls.add(urlPhoto);
+//                }
+
+//                    String imageUrl = urlPhoto;
+//                    urls.add(0, imageUrl);
+                intent.putExtra("current_item", position);
+                intent.putStringArrayListExtra("photos", listUrls);
+                context.startActivity(intent);
+            }
+        });
+        vh2.SetOnItemClickListenerLove(new ViewHolderPhoto.OnItemClickListener() {
+            @Override
+            public void onItemClick(View view, int position) {
+                Toast.makeText(context, "4", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        vh2.SetOnItemClickListenerComment(new ViewHolderPhoto.OnItemClickListener() {
+            @Override
+            public void onItemClick(View view, int position) {
+                Toast.makeText(context, "1", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        vh2.SetOnItemClickListenerShares(new ViewHolderPhoto.OnItemClickListener() {
+            @Override
+            public void onItemClick(View view, int position) {
+                Toast.makeText(context,"2", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
-    private void configureViewHolder3(ViewHolder3 vh3, int position) {
+    private void configureViewHolder3(ViewHolderClip vh3, int position) {
         PostStory item = list.get(position);
         Picasso.with(context)
                 .load(item.media.getThumbUrl())
@@ -185,6 +264,6 @@ public class RecyclerViewTimelineListAdapter extends RecyclerView.Adapter<Recycl
 
 
         //vh3.getThumb().setImageResource(R.drawable.imge);
-//        vh3.getLn_comment().setVisibility(View.GONE);
+        vh3.getLn_comment().setVisibility(View.VISIBLE);
     }
 }
