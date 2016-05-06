@@ -26,7 +26,7 @@ import mvp.com.mvptest.R;
 public class MainFeedListAndGridFragment extends AppCompatActivity {
     Toolbar toolbar;
     ImageView img_more, img_list;
-    TextView txt_write;
+    TextView txt_write,textView29;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +35,7 @@ public class MainFeedListAndGridFragment extends AppCompatActivity {
         img_more = (ImageView) findViewById(R.id.img_more);
         img_list = (ImageView) findViewById(R.id.img_list);
         txt_write = (TextView) findViewById(R.id.txt_write);
+        textView29 = (TextView) findViewById(R.id.textView29);
         txt_write.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -71,6 +72,13 @@ public class MainFeedListAndGridFragment extends AppCompatActivity {
                 FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                 transaction.replace(R.id.container, threeFragment);
                 transaction.commit();
+            }
+        });
+        textView29.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(),PostPhotoActivity.class);
+                startActivity(i);
             }
         });
     }

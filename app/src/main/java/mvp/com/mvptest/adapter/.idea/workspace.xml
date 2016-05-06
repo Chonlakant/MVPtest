@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8aff5352-4b50-4c6a-8146-49fc63b0bbf1" name="Default" comment="" />
+    <ignored path="adapter.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="adapter" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/Android-ObservableScrollView" value="9970337062000" />
+        <entry key="$USER_HOME$/Desktop/DraggablePanel" value="5696060056000" />
+        <entry key="$USER_HOME$/Desktop/Yts" value="7120052339000" />
+        <entry key="$USER_HOME$/Desktop/androidclient" value="9967340676000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../AboutLibraries" value="7253555820000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android-ActionItemBadge" value="7236216445000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android-DataBinding-Example" value="4350448194000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android-ShareEverywhere" value="5838723764000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android-SocialButtons" value="5838726268000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/Android-Bootstrap" value="4282137831000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/Android-ObservableScrollView" value="9965015949000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/Android-RecyclerView-Example" value="1426347062000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/AndroidDaggerHelloWorld" value="4290967248000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/AndroidRecyclerViewDemo" value="4294766442000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/Context-Menu.Android" value="7155289500000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/DraggablePanel" value="5711435424000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/DynamicGrid" value="5694293788000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/ExoPlayer" value="5703519980000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/InstaMaterial" value="4337521734000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/Lollipop-AppCompat-Widgets-Skeleton" value="4265792850000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/Lollipop-Test" value="4268261973000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/NavigationDrawer-MaterialDesign" value="5687656460000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/NavigationDrawerViewPage-MaterialDesign" value="4276998137000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/NavigationDrawerViewPage-MaterialDesignNew" value="4276999767000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/Parallax-Scrolling-Example" value="4279984542000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/PlayNewsStandDemo" value="4272295575000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/Pull-to-Refresh.Rentals-Android" value="5687728500000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/RecyclerView-MultipleViewTypesAdapter" value="8674043502000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/VDOMAXApp" value="4277124993000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/Yts" value="7119996974000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/android-floating-action-button" value="7109511057000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/android-gpuimage" value="8556832488000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/android-parallax-recyclerview" value="5702954248000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/iosched" value="4276994315000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/photo-picker-plus-android" value="7126963875000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_Studio_src/recyclerview-sample" value="4294320366000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_src/CustomEditor" value="4355645142000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_src/InstaMaterial" value="4356164796000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Android_src/RecyclerView-MultipleViewTypesAdapter" value="8712326856000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../BottomSheet" value="5803448364000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../ChatSoket/AutoLabelUI" value="7241325555000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../ChatSoket/BetterSpinner" value="8692461900000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../ChatSoket/Contacts" value="4345339707000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../ChatSoket/CustomizeExpandableListView" value="4348782816000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../ChatSoket/EmojisListApp" value="4345107387000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../ChatSoket/ExpandableLayoutaa" value="5799279376000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../ChatSoket/ExpandableLayoutd" value="8698907490000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../ChatSoket/FlycoTabLayout" value="5794241804000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../ChatSoket/SlidingIconTabLayout" value="4345806189000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../ChatSoket/android-contacts-loader-demo" value="4348945716000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../ChatSoket/android-contacts-loader-demod" value="4349488443000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../ChatSoket/contactlist" value="4349429388000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../ChatSoket/emojicon" value="7241800448000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Context-Menu.Android" value="7237848100000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../EasyMVP" value="4350492039000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../EmojiChat" value="5788514900000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../EmojiSwitcher" value="4350030135000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../FragmentNavigationPatternDemo" value="5834173972000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../GestureViews" value="7233495860000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../GuillotineMenu-Android" value="5787915680000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../ShiftColorPicker" value="7235499795000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../Side-Menu.Androida" value="7237879505000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../android-clean-architecture-mvp" value="5800658228000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../android-mvp-pattern" value="4351821039000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../android-recyclerview" value="4339838445000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../android-shoppingcart" value="5802885904000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../android-socket.io-demo" value="4342942713000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../androidmvp" value="4350191937000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../bottomsheet-new" value="7254354825000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../งานบริษัทIT_sof/Android-ActionItemBadge" value="8729155806000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../งานบริษัทIT_sof/Android-Upload-Demo" value="4358524875000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../งานบริษัทIT_sof/AndroidNavigationDrawer" value="4370771370000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../งานบริษัทIT_sof/Badger" value="4364581263000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../งานบริษัทIT_sof/KsyLiveAndroidSDK" value="5809425220000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../งานบริษัทIT_sof/MovieBox" value="4365019767000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../งานบริษัทIT_sof/Upload" value="2911401950000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../งานบริษัทIT_sof/android-socket.io-client-demo" value="4372337070000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../งานบริษัทIT_sof/keyboardbelowedittext" value="4361996568000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../งานบริษัทIT_sof/kickflip-android-sdk" value="4357041004000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../งานบริษัทIT_sof/periscope" value="5810018560000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../งานบริษัทIT_sof/socket.io-android-chat" value="4372365426000" />
+        <entry key="$PROJECT_DIR$/../../../../../../../../../../งานพี่ก่อ/InstaMaterial" value="4356411795000" />
+        <entry key="$USER_HOME$/Downloads/Android-RecyclerView-Example-master" value="1411454876000" />
+        <entry key="$USER_HOME$/Downloads/ExoPlayer-master" value="5699242832000" />
+        <entry key="$USER_HOME$/Downloads/MyParallaxHeaderViewPager-master" value="1424359320000" />
+        <entry key="$USER_HOME$/Downloads/ParallaxPagerTransformer-master" value="5705228768000" />
+        <entry key="$USER_HOME$/Downloads/VDOMax2 2/VDOMax2" value="5711367897000" />
+        <entry key="$USER_HOME$/Downloads/advanced-textview-master" value="4267262634000" />
+        <entry key="$USER_HOME$/Downloads/advanced-textview-master 2" value="4267262634000" />
+        <entry key="$USER_HOME$/Downloads/android-parallax-recyclerview-master" value="5699628104000" />
+        <entry key="$USER_HOME$/Downloads/android-parallax-recyclerview-master 2" value="5699628104000" />
+        <entry key="$USER_HOME$/Downloads/android_rest_example-master" value="4283076858000" />
+        <entry key="$USER_HOME$/Downloads/event-bus-example-master" value="4267798344000" />
+        <entry key="$USER_HOME$/Downloads/twoway-view-master" value="7113661300000" />
+        <entry key="$USER_HOME$/Paralloid" value="7128273240000" />
+        <entry key="$USER_HOME$/Yts" value="7122515050000" />
+        <entry key="$USER_HOME$/poly-picker/PolyPickerDemo" value="4276156710000" />
+      </map>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="14" />
+    <option name="y" value="23" />
+    <option name="width" value="1346" />
+    <option name="height" value="701" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8aff5352-4b50-4c6a-8146-49fc63b0bbf1" name="Default" comment="" />
+      <created>1461474012892</created>
+      <option name="number" value="Default" />
+      <updated>1461474012892</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="14" y="23" width="1346" height="701" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../../../../../../.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

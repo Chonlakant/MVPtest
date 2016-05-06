@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:background="#fff">
+
+        <ImageView
+
+            android:id="@+id/emoji_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" />
+
+        <EditText
+            android:id="@+id/et_box"
+            android:singleLine="false"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textColor="#252525"
+            android:textColorHint="#AAA"
+            />
+
+        <!--<github.ankushsachdeva.emojicon.EmojiconEditText-->
+            <!--android:id="@+id/et_box"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:ems="10"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="top"-->
+            <!--android:textColor="#252525"-->
+            <!--android:hint="What's in your mind ?" />-->
+
+            <Button
+                android:layout_weight="3"
+                android:id="@+id/button_recent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Send"/>
+
+    </LinearLayout>
+</LinearLayout>
